@@ -1,0 +1,44 @@
+/* index.css */
+
+/* Estilo general del body */
+body {
+    background: linear-gradient(to right, #8B5E3C, #D0A40F, #4E6E8D); /* Fusión de colores */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el contenedor principal */
+.row {
+margin: 0;
+padding: 0;
+}
+
+/* Estilo para las columnas */
+.col-sm-4 {
+background-color: rgba(133, 74, 7, 0.7); /* Fondo negro translúcido para contraste */
+border-radius: 10px;
+padding: 20px;
+}
+
+/* Estilo para el botón */
+button {
+font-size: 14px;
+border-radius: 5px;
+padding: 10px 15px;
+}
+
+/* Estilo para el encabezado */
+h5 {
+color: #F5F5F5; /* Color blanco para el texto del encabezado */
+}
+
+/* Estilo para las imágenes */
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+
+/* Estilo para el canvas */
+#qr-canvas {
+border: 2px solid #fff; /* Borde blanco para el canvas */
+}
